@@ -51,8 +51,7 @@ body {
 header {
   height: 100vh;
   background-color: #fff;
-  min-width: 300px;
-  padding: 20px; }
+  min-width: 300px; }
 
 .editor {
   width: 100%;
