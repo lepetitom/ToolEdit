@@ -122,12 +122,26 @@ nav ul li {
   font-size: 18px;
   font-weight: 700;
   color: #4A4D52;
-  opacity: 50%;
-  margin-bottom: 60px; }
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center; }
 
 .fa, .fab, .fad, .fal, .far, .fas {
-  margin-right: 10px;
   font-size: 23px; }
+
+.picto {
+  width: 40px; }
+
+li a {
+  text-decoration: none;
+  color: #4A4D52;
+  display: flex;
+  align-items: center;
+  opacity: 50%; }
+
+a:hover {
+  color: #FDB16F;
+  opacity: 100%; }
 
 .editor {
   width: 100%;
