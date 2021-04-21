@@ -41,7 +41,7 @@ p{
     text-decoration: underline;
 }
 
-.download .btn{
+a.download.btn{
     background-color: $orangePrincipal;
     border-radius: 30px;
     width: 183px;
@@ -49,4 +49,11 @@ p{
     color: white;
     font-size: 20px;
     font-weight: 400;
+}
+
+nav ul li{
+    font-size: 18px;
+    font-weight: 700;
+    color: $gris;
+    opacity: 50%;
 }
