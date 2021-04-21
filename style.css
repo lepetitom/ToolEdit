@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;0,800;1,400&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,7 +47,61 @@ table {
   border-spacing: 0; }
 
 body {
-  background-color: #FFF6EF; }
+  background-color: #FFF6EF;
+  font-family: 'Nunito', sans-serif; }
+
+h1 {
+  font-size: 30pt;
+  color: #4A4D52;
+  line-height: 40px;
+  font-weight: 700; }
+
+h2 {
+  font-size: 20pt;
+  color: #4A4D52;
+  line-height: 27px;
+  font-weight: 600; }
+
+p {
+  font-size: 13pt;
+  color: #4A4D52;
+  line-height: 18;
+  font-weight: 400; }
+
+a.check.btn {
+  background-color: #FDB16F;
+  border-radius: 30px;
+  width: 138px;
+  height: 36px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 8px 20px 8px 20px; }
+
+.a.seemore {
+  color: #FDB16F;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline; }
+
+a.download.btn {
+  background-color: #FDB16F;
+  border-radius: 30px;
+  width: 183px;
+  height: 47px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; }
+
+a.supprimer.btn {
+  color: #FDB16F;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none; }
 
 header {
   height: 100vh;
@@ -67,7 +122,9 @@ header {
       width: 100%;
       height: 700px;
       max-width: 500px;
-      padding: 20px; }
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px #fdb16f30; }
   .editor .toolsPage {
     background-color: #fff;
     right: 0;
