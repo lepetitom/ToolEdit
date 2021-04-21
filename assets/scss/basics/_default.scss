@@ -20,11 +20,11 @@ h2{
 p{
     font-size: 13pt;
     color: $gris;
-    line-height: 18
+    line-height: 18;
     font-weight: 400;
 }
 
-.checkText{
+a.check.btn{
     background-color: $orangePrincipal;
     border-radius: 30px;
     width: 138px;
@@ -32,9 +32,11 @@ p{
     color: white;
     font-size: 15px;
     font-weight: 400;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
 }
 
-.voirPlus{
+.a.seemore{
     color: $orangePrincipal;
     font-size: 18px;
     font-weight: 400;
@@ -48,12 +50,15 @@ a.download.btn{
     height: 47px;
     color: white;
     font-size: 20px;
-    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
-nav ul li{
-    font-size: 18px;
-    font-weight: 700;
-    color: $gris;
-    opacity: 50%;
+a.supprimer.btn{
+    color: $orangePrincipal;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
 }
