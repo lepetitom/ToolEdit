@@ -52,7 +52,8 @@ header {
   height: 100vh;
   background-color: #fff;
   min-width: 300px;
-  padding: 20px; }
+  padding: 20px;
+  font-size: 400px; }
 
 .editor {
   width: 100%;
