@@ -2,4 +2,27 @@ header{
     height: 100vh;
     background-color: $white;
     min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+nav ul li{
+    font-size: 18px;
+    font-weight: 700;
+    color: $gris;
+    opacity: 50%;
+    margin-bottom: 60px;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas{
+margin-right: 10px;
+font-size: 23px;
 }

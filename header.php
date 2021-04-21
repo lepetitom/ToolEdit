@@ -11,15 +11,15 @@
 
 <header>
     <div class="logo">
-        <h1>logog</h1>
+        <img src="assets/images/Logo.svg" alt="">
     </div>
     <nav>
         <ul>
-            <li>Item 1</li>        
-            <li>Item 2</li>        
-            <li>Item 3</li>        
-            <li>Item 4</li>        
-            <li>Item 5</li>        
+            <li><i class="far fa-file-alt"></i> Nouveau</li>        
+            <li><i class="fas fa-language"></i> Traduire</li>        
+            <li><i class="fas fa-book"></i> Dictionnaire</li>        
+            <li><i class="fas fa-spell-check"></i> SEO</li>        
+            <li><i class="far fa-chart-bar"></i> Synthèse</li>        
         </ul>
     </nav>
     <a href="#"class="download btn">Télécharger</a>
