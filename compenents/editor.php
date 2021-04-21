@@ -9,7 +9,9 @@
         ?>
     </div>
     <div class="toolsPage">
-    
+        <?php 
+            include ("compenents/pageEdit_correcteur.php")
+        ?>
     </div>
 </div>
 
