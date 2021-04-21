@@ -1,0 +1,72 @@
+.container{
+    width: 100%;
+    padding: 60px 60px;
+    box-sizing: border-box;
+}
+
+.editPart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+i{
+    color: $gris;
+}
+
+.undo-redo{
+    margin-right: 70px;
+
+    :first-child{
+        margin-right: 10px;
+    }
+}
+
+.supprimer{
+    color: $orangePrincipal;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+
+    .fas{
+        color: $orangePrincipal;
+        margin-right: 10px;
+    }
+}
+
+.suggestions{
+    height: 350px;
+    margin-top: 80px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.probleme{
+    width: 216px;
+    height: 40px;
+    background-color: $gris;
+    opacity: 0.05;
+    border-radius: 7px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+
+    
+    .cercle{
+        width: 22px;
+        height: 22px;
+        border-radius: 100%;
+        background-color: $gris;
+        opacity: 0.10;
+        z-index: 10;
+        margin-left: 10px;
+    }
+
+
+}
