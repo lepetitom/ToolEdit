@@ -70,10 +70,10 @@ h3 {
   font-weight: 600; }
 
 p {
-  font-size: 13pt;
+  font-size: 12pt;
   color: #4A4D52;
   line-height: 18;
-  font-weight: 400; }
+  font-weight: 100; }
 
 a.check.btn {
   background-color: #FDB16F;
@@ -88,7 +88,7 @@ a.check.btn {
   align-items: center;
   text-decoration: none; }
 
-.a.seemore {
+.seemore {
   color: #FDB16F;
   font-size: 18px;
   font-weight: 400;
@@ -235,21 +235,168 @@ i {
 .probleme {
   width: 216px;
   height: 40px;
-  background-color: #4A4D52;
-  opacity: 0.05;
+  background-color: rgba(74, 77, 82, 0.05);
   border-radius: 7px;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
   align-items: center; }
-  .probleme .cercle {
-    width: 22px;
-    height: 22px;
-    border-radius: 100%;
+
+.cercle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #4A4D52;
+  opacity: 0.05;
+  z-index: 10;
+  margin-left: 10px; }
+
+.container2 {
+  width: 100%;
+  padding: 40px 40px;
+  box-sizing: border-box; }
+
+.blocSuggestions {
+  height: 285px;
+  background-color: white;
+  box-shadow: 0px 0px 20px #f2f2f2;
+  border-radius: 15px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .blocSuggestions .faute {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+    .blocSuggestions .faute :last-child .rectangle {
+      width: 150px; }
+    .blocSuggestions .faute div {
+      display: flex;
+      align-items: center; }
+    .blocSuggestions .faute .cercle {
+      margin-left: 0; }
+  .blocSuggestions .choix {
+    width: 80px;
+    height: 35px;
     background-color: #4A4D52;
-    opacity: 0.10;
-    z-index: 10;
-    margin-left: 10px; }
+    opacity: 0.05;
+    border-radius: 5px;
+    margin-top: 10px; }
+  .blocSuggestions .add {
+    border-top: rgba(74, 77, 82, 0.05) solid 2px;
+    margin-top: 20px; }
+    .blocSuggestions .add .center {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px; }
+      .blocSuggestions .add .center div {
+        display: flex;
+        align-items: center; }
+      .blocSuggestions .add .center .cercle {
+        margin-left: 0; }
+
+.centre {
+  width: 100%;
+  height: 95px;
+  background-color: #4A4D52;
+  opacity: 0.05;
+  border: 2px solid #4A4D52;
+  border-radius: 10px;
+  margin-top: 10px; }
+
+.rectangle {
+  width: 100px;
+  height: 12px;
+  background-color: #4A4D52;
+  opacity: 0.05;
+  margin-left: 20px; }
+
+.defmotions {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+  .defmotions .dictionnaire {
+    display: flex;
+    flex-direction: column; }
+    .defmotions .dictionnaire .blocdico {
+      width: 350px;
+      background-color: white;
+      box-shadow: 0px 0px 20px #f2f2f2;
+      border-radius: 15px;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .defmotions .dictionnaire .blocdico .container2 .center {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+        .defmotions .dictionnaire .blocdico .container2 .center div {
+          display: flex;
+          align-items: center; }
+        .defmotions .dictionnaire .blocdico .container2 .center .cercle {
+          margin-left: 0; }
+      .defmotions .dictionnaire .blocdico .rectangle2 {
+        margin-top: 10px;
+        margin-left: 0;
+        width: 100px;
+        height: 12px;
+        background-color: #4A4D52;
+        opacity: 0.05; }
+  .defmotions .emotion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .defmotions .emotion .blocemotion {
+      width: 185px;
+      background-color: white;
+      box-shadow: 0px 0px 20px #f2f2f2;
+      border-radius: 15px;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .defmotions .emotion .container2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; }
+      .defmotions .emotion .container2 :first-child {
+        margin-left: 0;
+        width: 100px;
+        height: 80px;
+        background-color: #4A4D52;
+        opacity: 0.05; }
+      .defmotions .emotion .container2 :nth-child(2) {
+        margin-left: 0;
+        width: 40px;
+        height: 15px;
+        background-color: #4A4D52;
+        opacity: 0.05;
+        margin-top: 10px; }
+      .defmotions .emotion .container2 :nth-child(3) {
+        margin-left: 0;
+        width: 40px;
+        height: 15px;
+        background-color: #4A4D52;
+        opacity: 0.05;
+        margin-top: 10px; }
+
+.baspage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 70px; }
+  .baspage p {
+    margin-right: 20px;
+    line-height: 0; }
 
 body {
   display: flex; }
