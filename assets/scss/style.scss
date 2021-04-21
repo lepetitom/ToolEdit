@@ -1,1 +1,10 @@
-@import 'basic/variables.scss'
+@import "basics/_reset.scss";
+@import "basics/_vars.scss";
+@import "basics/_mixins.scss";
+@import "basics/_fonts.scss";
+@import "basics/_default.scss";
+
+@import "components/_header.scss";
+@import "components/_editor.scss";
+
+@import "template/_home.scss";
