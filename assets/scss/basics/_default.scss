@@ -1,3 +1,52 @@
 body{
     background-color: $orangeBg;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-size: 30pt;
+    color: $gris;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 20pt;
+    color: $gris;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 13pt;
+    color: $gris;
+    line-height: 18
+    font-weight: 400;
+}
+
+.checkText{
+    background-color: $orangePrincipal;
+    border-radius: 30px;
+    width: 138px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.voirPlus{
+    color: $orangePrincipal;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.download .btn{
+    background-color: $orangePrincipal;
+    border-radius: 30px;
+    width: 183px;
+    height: 47px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
 }
