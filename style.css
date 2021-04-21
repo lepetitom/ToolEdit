@@ -205,7 +205,7 @@ a:hover {
   align-items: center;
   justify-content: flex-end; }
 
-i {
+.undo-redo i {
   color: #4A4D52; }
 
 .undo-redo {
