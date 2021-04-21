@@ -15,13 +15,50 @@
     </div>
     <nav>
         <ul>
-            <li><i class="far fa-file-alt"></i> Nouveau</li>        
-            <li><i class="fas fa-language"></i> Traduire</li>        
-            <li><i class="fas fa-book"></i> Dictionnaire</li>        
-            <li><i class="fas fa-spell-check"></i> SEO</li>        
-            <li><i class="far fa-chart-bar"></i> Synthèse</li>        
+            <li> 
+                <a href="#">
+                <div class="picto">
+                    <i class="far fa-file-alt"></i> 
+                </div>   
+                Nouveau</a> 
+            </li> 
+
+
+            <li> 
+                <a href="#">
+                <div class="picto">
+                <i class="fas fa-language"></i> 
+                </div>   
+                Traduire</a> 
+            </li> 
+
+            <li> 
+                <a href="#">
+                <div class="picto">
+                <i class="fas fa-book"></i> 
+                </div>   
+                Dictionnaire</a> 
+            </li> 
+
+            <li> 
+                <a href="#">
+                <div class="picto">
+                <i class="fas fa-spell-check"></i> 
+                </div>   
+                SEO</a> 
+            </li>
+
+            <li> 
+                <a href="#">
+                <div class="picto">
+                <i class="far fa-chart-bar"></i>
+                </div>   
+                Synthèse</a> 
+            </li>
+
         </ul>
     </nav>
+
     <a href="#"class="download btn">Télécharger</a>
 </header>
     
