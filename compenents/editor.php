@@ -1,12 +1,12 @@
 <div class="editor">
     <div class="userDoc">
-        <div class="page">
-            <h1>Formulaire de test</h1>
-            <form action="" id="testForm">
-            <input name="content" type="text" placeholder="Entrer votre text" id="textContent">
-            <input type="submit" value="Tester">
-            </form>
+        <div class="titleDoc">
+            <h1>Document Title</h1>
+            <h2>Mode édition</h2>
         </div>
+        <?php 
+            include ("compenents/page_correcteur.php")
+        ?>
     </div>
     <div class="toolsPage">
     
