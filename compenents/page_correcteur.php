@@ -1,7 +1,7 @@
 <div class="page">
     <div class="content">
         <form action="" id="testForm">
-            <textarea name="content" placeholder="Entrer votre text" id="textContent"></textarea>
+            <textarea name="text" id="text" placeholder="Entrer votre text"></textarea>
             <input type="submit" value="Tester">
         </form>
     </div>
