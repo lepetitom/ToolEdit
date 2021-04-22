@@ -1,0 +1,266 @@
+.container{
+    width: 100%;
+    padding: 60px 60px;
+    box-sizing: border-box;
+}
+
+.editPart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+i{
+    color: $gris;
+}
+
+.undo-redo{
+    margin-right: 70px;
+
+    :first-child{
+        margin-right: 10px;
+    }
+}
+
+.supprimer{
+    color: $orangePrincipal;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+
+    .fas{
+        color: $orangePrincipal;
+        margin-right: 10px;
+    }
+}
+
+.suggestions{
+    height: 350px;
+    margin-top: 80px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.probleme{
+    width: 216px;
+    height: 40px;
+    background-color: rgba(74, 77, 82, 0.05);
+    border-radius: 7px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cercle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: $gris;
+    opacity: 0.05;
+    z-index: 10;
+    margin-left: 10px;
+}
+
+.container2{
+    width: 100%;
+    padding: 40px 40px;
+    box-sizing: border-box;
+}
+
+.blocSuggestions{
+    height: 285px;
+    background-color: white;
+    box-shadow: 0px 0px 20px #f2f2f2;
+    border-radius: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .faute{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+        :last-child .rectangle{
+            width: 150px;
+
+        }
+
+        div{
+            display: flex;
+            align-items: center;
+        }
+        
+        .cercle{
+            margin-left: 0;
+        }
+    }
+
+    .choix{
+        width: 80px;
+        height: 35px;
+        background-color: $gris;
+        opacity: 0.05;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .add{
+        border-top: rgba(74, 77, 82, 0.05) solid 2px;;
+        margin-top: 20px;
+
+        .center{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+
+            div{
+                display: flex;
+                align-items: center;
+            }
+
+            .cercle{
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+.centre{
+    width: 100%;
+    height: 95px;
+    background-color: $gris;
+    opacity: 0.05;
+    border: 2px solid $gris;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.rectangle{
+    width: 100px;
+    height: 12px;
+    background-color: $gris;
+    opacity: 0.05;
+    margin-left: 20px;
+}
+
+.defmotions{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .dictionnaire{
+        display: flex;
+        flex-direction: column;
+
+        .blocdico{
+            width :350px;
+            background-color: white;
+            box-shadow: 0px 0px 20px #f2f2f2;
+            border-radius: 15px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            
+            .container2 .center {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                }
+
+                .cercle{
+                    margin-left: 0;
+                } 
+            }
+
+            .rectangle2{
+                margin-top: 10px;
+                margin-left: 0;
+                width: 100px;
+                height: 12px;
+                background-color: $gris;
+                opacity: 0.05;
+            }
+        }
+    }
+
+    .emotion{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .blocemotion{
+            width :185px;
+            background-color: white;
+            box-shadow: 0px 0px 20px #f2f2f2;
+            border-radius: 15px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+
+        .container2{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            :first-child{
+                margin-left: 0;
+                width: 100px;
+                height: 80px;
+                background-color: $gris;
+                opacity: 0.05;
+            }
+
+            :nth-child(2){
+                margin-left: 0;
+                width: 40px;
+                height: 15px;
+                background-color: $gris;
+                opacity: 0.05;
+                margin-top: 10px;
+            }
+
+            :nth-child(3){
+                margin-left: 0;
+                width: 40px;
+                height: 15px;
+                background-color: $gris;
+                opacity: 0.05;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.baspage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 70px;
+
+    p{
+        margin-right: 20px;
+        line-height: 0;
+    }
+}

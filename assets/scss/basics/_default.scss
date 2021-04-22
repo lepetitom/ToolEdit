@@ -18,11 +18,18 @@ h2{
     font-weight: 600;
 }
 
+h3{
+    font-size: 14pt;
+    color: $gris;
+    line-height: 27px;
+    font-weight: 600;
+}
+
 p{
-    font-size: 13pt;
+    font-size: 12pt;
     color: $gris;
     line-height: 18;
-    font-weight: 400;
+    font-weight: 100;
 }
 
 a.check.btn{
@@ -33,11 +40,13 @@ a.check.btn{
     color: white;
     font-size: 15px;
     font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    padding: 8px 20px 8px 20px;
 }
 
-.a.seemore{
+.seemore{
     color: $orangePrincipal;
     font-size: 18px;
     font-weight: 400;
@@ -62,4 +71,9 @@ a.supprimer.btn{
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    padding: 60px 110px;
 }
