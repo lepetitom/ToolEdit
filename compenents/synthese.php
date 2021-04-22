@@ -14,7 +14,7 @@
             <!-- partie avec les résultats apparents -->
                 <div class="contenu">
                     <p>Nombre de caractères</p>
-                    <p><input type="text" name="nbCaractere"></p>
+                    <p class="chiffre" id="nbcaractere"> 0 </p>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
 
                 <div class="contenu">
                     <p>Nombre de mots</p>
-                    <p class="chiffre">10 000</p>
+                    <p class="chiffre" id="nbmots"> 0 </p>
                 </div>
             </div>
         </div>
@@ -41,8 +41,8 @@
                 </div>
 
                 <div class="contenu">
-                    <p>Principal</p>
-                    <p class="chiffre">10 000</p>
+                    <p>Nombre de lignes</p>
+                    <p class="chiffre" id="nblignes"> 0 </p>
                 </div>
             </div>
         </div>
