@@ -13,8 +13,8 @@
 
             <!-- partie avec les résultats apparents -->
                 <div class="contenu">
-                    <p>Principal</p>
-                    <p class="chiffre">10 000</p>
+                    <p>Nombre de caractères</p>
+                    <p><input type="text" name="nbCaractere"></p>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="contenu">
-                    <p>Principal</p>
+                    <p>Nombre de mots</p>
                     <p class="chiffre">10 000</p>
                 </div>
             </div>
