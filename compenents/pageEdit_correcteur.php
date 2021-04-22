@@ -8,7 +8,7 @@
         </div>
         
 
-        <a class='supprimer' value="effacer" onclick="effacer()" href=""><i class="fas fa-trash"></i> Effacer le texte</a>
+        <a class='supprimer' value="effacer" onclick="effacer()"><i class="fas fa-trash"></i> Effacer le texte</a>
     </div>
 
     <!-- PARTIE SUGGESTION -->
@@ -104,8 +104,8 @@
 
     <!-- PARTIE DU BAS -->
     <div class="baspage">
-        <p id="nbcaractere"> 0 </p>
-        <a class="seemore" href="">Voir plus</a>
+        <p>Nombre de caractères :</p><p id="nbcaractere"> 0 </p>
+        <a class="seemore" onclick="synthese()"> Voir plus</a>
     </div>
 </div>
 </div>
