@@ -431,5 +431,93 @@ a:hover {
       .container_page .titre div i {
         color: #FDB16F; }
 
+.page_container {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 130px;
+  flex-direction: column; }
+
+.ligne {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px; }
+
+.bloc {
+  background-color: white;
+  width: 33%;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-right: 50px; }
+
+body {
+  margin: 0; }
+
+.containerbloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .containerbloc .contenu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%; }
+    .containerbloc .contenu p {
+      line-height: 1.5; }
+    .containerbloc .contenu .chiffre {
+      font-size: 50px;
+      color: #FDB16F;
+      font-weight: 800; }
+
+.chargement {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  display: none; }
+
+.chargement .avatar {
+  width: 262px;
+  height: 72px;
+  background-color: #ccc;
+  border-radius: 4px;
+  margin-top: 8px;
+  background-image: linear-gradient(90deg, #F4F4F4 0px, rgba(229, 229, 229, 0.8) 40px, #F4F4F4 80px);
+  background-size: 600px;
+  animation: shine-avatar 2s infinite ease-out; }
+
+.chargement .line {
+  width: 170px;
+  height: 16px;
+  border-radius: 4px;
+  background-image: linear-gradient(90deg, #F4F4F4 0px, rgba(229, 229, 229, 0.8) 40px, #F4F4F4 80px);
+  background-size: 600px;
+  animation: shine-lines 2s infinite ease-out; }
+
+.chargement .avatar + .line {
+  margin-top: 11px;
+  width: 100px; }
+
+.chargement .line ~ .line {
+  background-color: #ddd; }
+
+@keyframes shine-lines {
+  0% {
+    background-position: -100px; }
+  40%, 100% {
+    background-position: 140px; } }
+
+@keyframes shine-avatar {
+  0% {
+    background-position: -32px; }
+  40%, 100% {
+    background-position: 208px; } }
+
 body {
   display: flex; }
