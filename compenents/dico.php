@@ -1,8 +1,9 @@
 <div class="dictionnaire">
     <h1>Dictionnaire</h1>
     <div class="navSearch">
-        <input type="text" placeholder="Mot à définir">
-        <input type="submit">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Mot à définir" class="search">
+        <input type="submit" class="envoyer">
     </div>
     <div class="result">
         <div class="word"></div>
