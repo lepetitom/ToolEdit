@@ -86,6 +86,7 @@
         <!-- bloc emotions -->
         <div class="emotion">
             <h3>Émotion générée</h3>
+            <button onclick="scribens_check('text', 'tempelaere.t@gmail.com', 'ESD@b3')">Scribens</button>
             <div class="blocemotion">
                 <div class="container2">
                     <div class="rectangle"></div>
