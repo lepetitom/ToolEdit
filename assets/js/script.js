@@ -56,3 +56,12 @@ document.querySelector('form').addEventListener('submit', function (e) {
         console.log(erreur);
     });
 })
+
+
+
+//COPIER LES DONNÉES DU TEXTAREA 
+function copy() {
+    let textarea = document.getElementById("text");
+    textarea.select();
+    document.execCommand("copy");
+  }

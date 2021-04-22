@@ -32,7 +32,7 @@ p{
     font-weight: 100;
 }
 
-a.check.btn{
+.checkbtn{
     background-color: $orangePrincipal;
     border-radius: 30px;
     width: 138px;
@@ -44,6 +44,8 @@ a.check.btn{
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    border: none;
+    outline:none;
 }
 
 .seemore{
@@ -66,7 +68,7 @@ a.download.btn{
     text-decoration: none;
 }
 
-a.supprimer.btn{
+.supprimerbtn{
     color: $orangePrincipal;
     font-size: 20px;
     font-weight: 600;

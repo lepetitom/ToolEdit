@@ -75,7 +75,7 @@ p {
   line-height: 18;
   font-weight: 100; }
 
-a.check.btn {
+.checkbtn {
   background-color: #FDB16F;
   border-radius: 30px;
   width: 138px;
@@ -86,7 +86,9 @@ a.check.btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none; }
+  text-decoration: none;
+  border: none;
+  outline: none; }
 
 .seemore {
   color: #FDB16F;
@@ -106,7 +108,7 @@ a.download.btn {
   align-items: center;
   text-decoration: none; }
 
-a.supprimer.btn {
+.supprimerbtn {
   color: #FDB16F;
   font-size: 20px;
   font-weight: 600;
@@ -163,20 +165,35 @@ a:hover {
   display: flex; }
   .editor .userDoc {
     padding: 20px;
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column; }
+    .editor .userDoc h2 {
+      margin-bottom: 20px; }
     .editor .userDoc .titleDoc {
       width: 100%;
       max-width: 500px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center; }
+      .editor .userDoc .titleDoc div {
+        margin-left: 30px; }
+        .editor .userDoc .titleDoc div :first-child {
+          margin-right: 30px; }
+        .editor .userDoc .titleDoc div i {
+          color: #FDB16F; }
   .editor .toolsPage {
     background-color: #fff;
     right: 0;
     min-height: 100vh;
     min-width: 50%; }
+
+.copy {
+  background: transparent;
+  border: none;
+  outline: none; }
 
 .page {
   background-color: #fff;
