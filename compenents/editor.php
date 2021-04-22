@@ -8,11 +8,10 @@
             include ("compenents/page_correcteur.php")
         ?>
     </div>
-    <div class="toolsPage">
+    <div class="toolsPage" id="toolsPage">
         <?php 
-            //include ("compenents/pageEdit_correcteur.php")
-            include ("compenents/pageEdit_translate.php")
-
+            include ("compenents/pageEdit_correcteur.php");
+            include ("compenents/pageEdit_translate.php");
         ?>
     </div>
 </div>

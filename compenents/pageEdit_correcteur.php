@@ -1,6 +1,6 @@
 
 <!-- PARTIE UNDO REDO ET SUPPRIMER -->
-<div class="container">
+<div id="nouveau" class="container done">
     <div class="editPart">
         <div class="undo-redo">
             <a href=""><i class="fas fa-undo-alt"></i></a>
@@ -106,6 +106,7 @@
         <p>nombre de caractères</p>
         <a class="seemore" href="">Voir plus</a>
     </div>
+</div>
 </div>
 
 

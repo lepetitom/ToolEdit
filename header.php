@@ -16,7 +16,7 @@
     <nav>
         <ul>
             <li> 
-                <a href="#">
+                <a href="#" onclick="nouveau()">
                 <div class="picto">
                     <i class="far fa-file-alt"></i> 
                 </div>   
@@ -25,7 +25,7 @@
 
 
             <li> 
-                <a href="#">
+                <a href="#" onclick="traduction()">
                 <div class="picto">
                 <i class="fas fa-language"></i> 
                 </div>   
