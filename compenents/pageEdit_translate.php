@@ -1,5 +1,5 @@
 
-<div class="container_page">
+<div id="translate" class="container_page done">
     <div class="left">
         <div class="titre">
             <h1>Document Title</h1>

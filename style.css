@@ -116,6 +116,9 @@ a.supprimer.btn {
   width: 100%;
   padding: 60px 110px; }
 
+.done {
+  display: none !important; }
+
 header {
   height: 100vh;
   background-color: #fff;

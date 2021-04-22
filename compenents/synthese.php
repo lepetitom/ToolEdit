@@ -1,4 +1,4 @@
-<div class="page_container">
+<div class="page_container done" id="synthese">
     <h1>Synthèse</h1>
 
     <div class="ligne">

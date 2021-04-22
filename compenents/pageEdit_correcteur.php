@@ -1,6 +1,6 @@
 
 <!-- PARTIE UNDO REDO ET SUPPRIMER -->
-<div class="container">
+<div id="nouveau" class="container done">
     <div class="editPart">
         <div class="undo-redo">
             <a href=""><i class="fas fa-undo-alt"></i></a>
@@ -86,6 +86,7 @@
         <!-- bloc emotions -->
         <div class="emotion">
             <h3>Émotion générée</h3>
+            <button onclick="scribens_check('text', 'tempelaere.t@gmail.com', 'ESD@b3')">Scribens</button>
             <div class="blocemotion">
                 <div class="container2">
                     <div class="rectangle"></div>
@@ -106,6 +107,7 @@
         <p>nombre de caractères</p>
         <a class="seemore" href="">Voir plus</a>
     </div>
+</div>
 </div>
 
 
