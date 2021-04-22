@@ -49,7 +49,7 @@
             </li>
 
             <li> 
-                <a href="#">
+                <a href="#"  onclick="synthese()">
                 <div class="picto">
                 <i class="far fa-chart-bar"></i>
                 </div>   

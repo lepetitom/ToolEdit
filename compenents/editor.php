@@ -1,4 +1,4 @@
-<div class="editor">
+<div class="editor" id="editor">
     <div class="userDoc">
         <div class="titleDoc">
             <h1>Document Title</h1>

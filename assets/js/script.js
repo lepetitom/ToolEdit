@@ -1,14 +1,28 @@
 function nouveau() {
-    var element = document.getElementById("nouveau");
-    element.classList.remove("done");
+    var nouveau = document.getElementById("nouveau");
+    nouveau.classList.remove("done");
     var traduction = document.getElementById("translate");
     traduction.classList.add("done");
+    var synthese = document.getElementById("synthese");
+    synthese.classList.add("done");
+    var editor = document.getElementById("editor");
+    editor.classList.remove("done");
 }
 function traduction() {
     var element = document.getElementById("translate");
     element.classList.remove("done");
     var nouveau = document.getElementById("nouveau");
     nouveau.classList.add("done");
+    var synthese = document.getElementById("synthese");
+    synthese.classList.add("done");
+    var editor = document.getElementById("editor");
+    editor.classList.remove("done");
+}
+function synthese() {
+    var editor = document.getElementById("editor");
+    editor.classList.add("done");
+    var synthese = document.getElementById("synthese");
+    synthese.classList.remove("done");
 }
 
 
