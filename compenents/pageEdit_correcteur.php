@@ -1,3 +1,4 @@
+
 <!-- PARTIE UNDO REDO ET SUPPRIMER -->
 <div class="container">
     <div class="editPart">
@@ -8,7 +9,6 @@
 
         <a class='supprimer' href=""><i class="fas fa-trash"></i> Effacer le texte</a>
     </div>
-
 
 
     <!-- PARTIE SUGGESTION -->
@@ -106,8 +106,6 @@
         <p>nombre de caractères</p>
         <a class="seemore" href="">Voir plus</a>
     </div>
-    
-
 </div>
 
 
