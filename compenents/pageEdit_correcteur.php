@@ -3,13 +3,13 @@
 <div class="container">
     <div class="editPart">
         <div class="undo-redo">
-            <a href=""><i class="fas fa-undo-alt"></i></a>
-            <a href=""><i class="fas fa-redo-alt"></i></a>
+            <a onClick="document.execCommand('undo', '', null)" name="Undo" value="Undo" ><i class="fas fa-undo-alt"></i></a>
+            <a onClick="document.execCommand('redo', '', null)" name="Redo" value="Redo" ><i class="fas fa-redo-alt"></i></a>
         </div>
+        
 
-        <a class='supprimer' href=""><i class="fas fa-trash"></i> Effacer le texte</a>
+        <a class='supprimer' value="effacer" onclick="effacer()" href=""><i class="fas fa-trash"></i> Effacer le texte</a>
     </div>
-
 
     <!-- PARTIE SUGGESTION -->
     <div class="suggestions">
@@ -103,7 +103,7 @@
 
     <!-- PARTIE DU BAS -->
     <div class="baspage">
-        <p>nombre de caractères</p>
+        <p id="nbcaractere"> 0 </p>
         <a class="seemore" href="">Voir plus</a>
     </div>
 </div>

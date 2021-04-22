@@ -10,8 +10,8 @@
     </div>
     <div class="toolsPage">
         <?php 
-            //include ("compenents/pageEdit_correcteur.php")
-            include ("compenents/pageEdit_translate.php")
+            include ("compenents/pageEdit_correcteur.php")
+            //include ("compenents/pageEdit_translate.php")
 
         ?>
     </div>

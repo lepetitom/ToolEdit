@@ -3,6 +3,7 @@
 
 <!-- MY SCRIPT -->
 <script src="assets/js/script.js"></script>
+<script src="assets/js/Edit_correcteur.js"></script>
 
 
 <!-- FONTAWESOME -->
