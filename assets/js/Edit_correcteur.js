@@ -1,6 +1,8 @@
 //EFFACER TEXTE TEXTAREA
 
 function effacer(){
-    document.getElementById("text").value="";}
+    console.log("delete");
+    console.log(document.querySelector(".mce-content-body"));  
 
-    
+    document.querySelector(".mce-content-body ").innerHTML="";
+}
