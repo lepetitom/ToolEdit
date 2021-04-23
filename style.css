@@ -174,7 +174,9 @@ a:hover {
     justify-content: center;
     flex-direction: column; }
     .editor .userDoc h2 {
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      max-width: 500px;
+      width: 100%; }
     .editor .userDoc .titleDoc {
       width: 100%;
       max-width: 500px;

@@ -2,10 +2,9 @@
 <div id="translate" class="container_page done">
     <div class="left">
         <div class="titre">
-            <h1>Document Title</h1>
+            <h1>Mon document</h1>
             <div>
-                <i class="fas fa-link"></i>
-                <i class="far fa-copy"></i>
+                <button class="copy" id="copy"><i class="far fa-copy"></i> </button>            
             </div>
         </div>
 
