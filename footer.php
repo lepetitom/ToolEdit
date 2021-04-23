@@ -22,8 +22,8 @@
 <script>
     tinymce.init({
       selector: 'textarea',
-      plugins: "scribensplugin",
-      toolbar: "bold italic underline | scribensplugin",
+      plugins: "scribensplugin wordcount", 
+      toolbar: "bold italic underline | scribensplugin wordcount",
       toolbar_mode: 'floating',
       tinycomments_mode: 'embedded',
       tinycomments_author: 'Author name',
@@ -37,7 +37,43 @@
       lang: "fr"
       }
    });
+
+   //SUPPRIMER TEXTE DANS TEXTAREA
+   document.querySelector(".supprimer").addEventListener("click", function(){
+      console.log("delete");
+      console.log(tinymce.activeEditor);
+      tinymce.activeEditor.setContent('');
+   })
+
+   //BOUTON UNDO
+   document.getElementById("undo").addEventListener("click", function(){
+      console.log("undo");
+      tinymce.activeEditor.undoManager.undo();
+   }) 
+
+   //BOUTON REDO
+   document.getElementById("redo").addEventListener("click", function(){
+      console.log("redo");
+      tinymce.activeEditor.undoManager.redo();
+   }) 
+
+   //BOUTON COPIER
+   document.getElementById("copy").addEventListener("click", function(event){
+      console.log("copy");
+      const select = tinymce.activeEditor.getContent({format: 'text'});
+      console.log(select);
+      document.execCommand("copy")
+   });
+
+   document.addEventListener('copy', (event) => {
+      const select = tinymce.activeEditor.getContent({format: 'text'});
+      event.clipboardData.setData('text/plain', select.toString());
+      event.preventDefault();
+   });
+
    
+
+
 </script>
 <script src="assets/js/translate.js"></script>
 

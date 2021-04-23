@@ -23,6 +23,22 @@ function synthese() {
     editor.classList.add("done");
     var synthese = document.getElementById("synthese");
     synthese.classList.remove("done");
+
+    //COMPTER NOMBRE MOTS
+   var wordcount = tinymce.activeEditor.plugins.wordcount;
+
+      console.log("countword");
+      console.log(wordcount.body.getWordCount());
+      document.getElementById('nbmots').innerHTML = wordcount.body.getWordCount();
+
+      //COMPTER NOMBRE DE CARACTÈRES
+      console.log(wordcount.body.getCharacterCount());
+      document.getElementById('nbcaractere2').innerHTML = wordcount.body.getCharacterCount();
+
+    //COMPTER NOMBRE DE CARACTÈRES SANS ESPACES
+      console.log(wordcount.body.getCharacterCountWithoutSpaces());
+      document.getElementById('nbcaracterespaces').innerHTML = wordcount.body.getCharacterCountWithoutSpaces();
+
 }
 
 
@@ -61,7 +77,7 @@ document.querySelector('form').addEventListener('submit', function (e) {
 
 //COPIER LES DONNÉES DU TEXTAREA 
 function copy() {
-    let textarea = document.getElementById("text");
+    let textarea = document.getElementById("tinymce");
     textarea.select();
     document.execCommand("copy");
 }

@@ -14,7 +14,7 @@
             <!-- partie avec les résultats apparents -->
                 <div class="contenu">
                     <p>Nombre de caractères</p>
-                    <p class="chiffre" id="nbcaractere"> 0 </p>
+                    <p class="chiffre" id="nbcaractere2"> 0 </p>
                 </div>
             </div>
         </div>
@@ -41,8 +41,8 @@
                 </div>
 
                 <div class="contenu">
-                    <p>Nombre de lignes</p>
-                    <p class="chiffre" id="nblignes"> 0 </p>
+                    <p>Nombre de caractères sans espaces</p>
+                    <p class="chiffre" id="nbcaracterespaces"> 0 </p>
                 </div>
             </div>
         </div>
