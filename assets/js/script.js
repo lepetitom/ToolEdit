@@ -26,7 +26,13 @@ function synthese() {
 }
 
 
-const exempleTxt = `Paul vient de finir son travail. Il est en train de ranger ses affaires. Il a plusieurs choses à faire ce soir. Il doit faire quelques courses, il compte aussi faire un peu de rangement. Il sait bien cuisiner alors en général, il prépare aussi le repas. Et ce soir, il peut prendre son temps car sa femme et ses enfants vont rentrer tard. Il veut leur faire une surprise. Il pense leur préparer une tarte aux fraises.`
+const exempleTxt = `
+    fdsfL’enfant qui jouait le voilà maigre et courbé
+
+    L’enfant qui pleurait le voilà les yeux brûlés
+
+    L’enfant qui dansait une ronde le voilà qui court après
+`
 const textHTML = document.getElementById('text')
 textHTML.innerHTML = exempleTxt
 
@@ -56,7 +62,6 @@ document.querySelector('form').addEventListener('submit', function (e) {
         console.log(erreur);
     });
 })
-
 
 
 //COPIER LES DONNÉES DU TEXTAREA 

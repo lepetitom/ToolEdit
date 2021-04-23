@@ -1,6 +1,6 @@
 
 <!-- PARTIE UNDO REDO ET SUPPRIMER -->
-<div id="nouveau" class="container done">
+<div id="nouveau" class="container">
     <div class="editPart">
         <div class="undo-redo">
             <a onClick="document.execCommand('undo', '', null)" name="Undo" value="Undo" ><i class="fas fa-undo-alt"></i></a>
