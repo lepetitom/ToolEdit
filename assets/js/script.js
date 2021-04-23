@@ -29,6 +29,22 @@ function synthese() {
     synthese.classList.remove("done");
     var dico = document.getElementById("dictionnaire");
     dico.classList.add("done");
+
+    //COMPTER NOMBRE MOTS
+   var wordcount = tinymce.activeEditor.plugins.wordcount;
+
+      console.log("countword");
+      console.log(wordcount.body.getWordCount());
+      document.getElementById('nbmots').innerHTML = wordcount.body.getWordCount();
+
+      //COMPTER NOMBRE DE CARACTÈRES
+      console.log(wordcount.body.getCharacterCount());
+      document.getElementById('nbcaractere2').innerHTML = wordcount.body.getCharacterCount();
+
+    //COMPTER NOMBRE DE CARACTÈRES SANS ESPACES
+      console.log(wordcount.body.getCharacterCountWithoutSpaces());
+      document.getElementById('nbcaracterespaces').innerHTML = wordcount.body.getCharacterCountWithoutSpaces();
+
 }
 function dictionnaire() {
     var dico = document.getElementById("dictionnaire");
@@ -104,7 +120,7 @@ document.querySelector('form').addEventListener('submit', function (e) {
 
 //COPIER LES DONNÉES DU TEXTAREA 
 function copy() {
-    let textarea = document.getElementById("text");
+    let textarea = document.getElementById("tinymce");
     textarea.select();
     document.execCommand("copy");
 }
