@@ -218,6 +218,23 @@
             display: flex;
             justify-content: center;
             align-items: center; 
+            flex-direction: column;
+            #emotionsImage{
+                text-align: center;
+            }
+            img{
+                max-width: 60%;
+                margin-bottom: 20px;
+            }
+            .emotions{
+                font-size: 16px !important;
+                font-weight: 600;
+                color: $orangePrincipal ;
+            }
+            .emotionsScore{
+                color: $gris;
+                opacity: 0.5;
+            }
         }
 
         .container2{

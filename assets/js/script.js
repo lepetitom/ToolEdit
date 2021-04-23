@@ -48,12 +48,35 @@ document.querySelector('form').addEventListener('submit', function (e) {
     })
     .then(function (reponse) {
         //On traite la suite une fois la réponse obtenue 
-        console.log(reponse);
+        console.log('reponse',reponse);
+        
+        // Emotion Type
         let emotionsHTML = document.getElementById('emotions')
         let emotions = reponse.data.emotion.elements
         console.log(emotions)
         emotions.map(emotion => {
             emotionsHTML.append(emotion.type)
+        })
+
+        // Emotion score
+        let emotionsScoreHTML = document.getElementById('emotionsScore')
+        let emotionsScore = reponse.data.emotion.elements
+        console.log(emotionsScore)
+        emotionsScore.map(emotion => {
+            emotionsScoreHTML.append(emotion.value)
+        })
+
+        // Emotion Image
+        let emotionsImageHTML = document.getElementById('emotionsImage')
+        let emotionsImage = reponse.data.emotion.elements
+        console.log(emotionsImage)
+        emotionsImage.map(emotion => {
+            var val = emotion.type,
+                img = document.createElement('img');
+
+            img.src = 'assets/images/' + val +'.png';
+            console.log(img.src);
+            emotionsImageHTML.append(img);
         })
 
     })
