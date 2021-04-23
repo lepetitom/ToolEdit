@@ -17,6 +17,10 @@ body {
   box-sizing: border-box;
 }
 
+.text-center col-12 col-md-10 offset-md-1{
+
+}
+
 #layoutDefault {
   display: -webkit-box;
   display: -ms-flexbox !important;
@@ -454,8 +458,10 @@ li.fz90p-li a {
 }
 
 .text-titre-def-popup {
-  color: #b20d14 !important;
+  color: #FDB16F !important;
   font-weight: 700 !important;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 50px !important
 }
 
 .title-main {
@@ -466,10 +472,12 @@ li.fz90p-li a {
 }
 
 .title-niv2 {
-  color: #8e1010;
+  color: #FDB16F;
   font-size: 1.5rem;
   font-weight: 600;
   border-bottom: 1px solid rgba(48, 48, 48, 0.1);
+  font-family: 'Nunito', sans-serif;
+  margin-top: 50px !important
 }
 
 .letter-spaces {
@@ -565,7 +573,7 @@ li.fz90p-li a {
 }
 
 .text-ocre {
-  color: #d8d393;
+  color: white;
 }
 
 
