@@ -21,6 +21,11 @@
         i{
             margin: auto 25px auto 25px;
         }
+
+        form{
+            display: flex;
+            width: 100%;
+        }
         
         .search{
             width: 100%;
@@ -60,6 +65,9 @@
         border-radius: 7px;
         box-shadow: 0px 0px 20px #fdb16f30;
 
+        img{
+            max-width: 100%;
+        }
         .def{
             margin: 35px;
 
