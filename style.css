@@ -206,13 +206,45 @@ a:hover {
   .page .content {
     box-sizing: border-box;
     width: 100%;
-    height: 100%;
-    padding: 40px 35px; }
+    height: 100%; }
     .page .content form {
       height: 100%; }
     .page .content textarea {
       width: 100%;
       height: 100%;
+      border: none;
+      outline: none; }
+  .page .tox-tinymce {
+    border: none !important; }
+  .page .tox-platform-touch {
+    border-radius: 10px; }
+    .page .tox-platform-touch .tox-edit-area {
+      margin: 10px 20px; }
+  .page .tinymce-scribensplugin {
+    position: absolute !important;
+    bottom: 30px;
+    left: 10px;
+    height: auto !important;
+    width: auto !important;
+    color: #fff;
+    background-color: #FDB16F; }
+    .page .tinymce-scribensplugin .tox-editor-container {
+      border-radius: 10px; }
+    .page .tinymce-scribensplugin .tox-icon {
+      display: none; }
+    .page .tinymce-scribensplugin:before {
+      content: 'Verifier le texte';
+      background-color: #FDB16F;
+      border-radius: 30px;
+      width: 138px;
+      height: 36px;
+      color: white;
+      font-size: 15px;
+      font-weight: 400;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
       border: none;
       outline: none; }
 
