@@ -165,6 +165,7 @@
     .dictionnaire{
         display: flex;
         flex-direction: column;
+        margin: 0 !important;
 
         .blocdico{
             width :350px;
@@ -259,7 +260,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 70px;
+    margin-top: 40px;
 
     p{
         margin-right: 20px;
