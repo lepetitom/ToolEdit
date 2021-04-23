@@ -84,16 +84,10 @@
         </div>     
 
         <!-- bloc emotions -->
-        <div class="emotion">
-            <h3>Émotion générée</h3>
-            <div class="blocemotion">
-                <div class="container2">
-                    <div class="rectangle"></div>
-                    <div class="rectangle"></div>
-                    <div class="rectangle"></div>
-                </div>
-            </div>
-        </div>
+        <?php 
+            // include ("bloc_emotions_sk.php");
+            include ("bloc_emotions_result.php");
+        ?>
 
 
 

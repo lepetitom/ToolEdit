@@ -422,7 +422,20 @@ a:hover {
       margin-top: 30px;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      flex-direction: column; }
+      .defmotions .emotion .blocemotion #emotionsImage {
+        text-align: center; }
+      .defmotions .emotion .blocemotion img {
+        max-width: 60%;
+        margin-bottom: 20px; }
+      .defmotions .emotion .blocemotion .emotions {
+        font-size: 16px !important;
+        font-weight: 600;
+        color: #FDB16F; }
+      .defmotions .emotion .blocemotion .emotionsScore {
+        color: #4A4D52;
+        opacity: 0.5; }
     .defmotions .emotion .container2 {
       display: flex;
       justify-content: center;
