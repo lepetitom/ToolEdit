@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@azure/cognitiveservices-spellcheck": "^3.0.1",
     "brace-expansion": "^1.1.11",
     "call-bind": "^1.0.2",
     "clone": "^1.0.4",

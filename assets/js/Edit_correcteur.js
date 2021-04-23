@@ -1,6 +1,6 @@
 //EFFACER TEXTE TEXTAREA
 
-function effacer()
-{
- document.getElementById("text").value="";
-}
+function effacer(){
+    document.getElementById("text").value="";}
+
+    
