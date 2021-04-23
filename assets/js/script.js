@@ -57,12 +57,7 @@ function dictionnaire() {
 
 
 
-const exempleTxt = `
-    fdsfL’enfant qui jouait le voilà maigre et courbé
-
-    L’enfant qui pleurait le voilà les yeux brûlés
-
-    L’enfant qui dansait une ronde le voilà qui court après
+const exempleTxt = ` Houra, c'est génial !
 `
 const textHTML = document.getElementById('text')
 textHTML.innerHTML = exempleTxt
