@@ -7,6 +7,8 @@ function nouveau() {
     synthese.classList.add("done");
     var editor = document.getElementById("editor");
     editor.classList.remove("done");
+    var dico = document.getElementById("dictionnaire");
+    dico.classList.add("done");
 }
 function traduction() {
     var element = document.getElementById("translate");
@@ -17,13 +19,26 @@ function traduction() {
     synthese.classList.add("done");
     var editor = document.getElementById("editor");
     editor.classList.remove("done");
+    var dico = document.getElementById("dictionnaire");
+    dico.classList.add("done");
 }
 function synthese() {
     var editor = document.getElementById("editor");
     editor.classList.add("done");
     var synthese = document.getElementById("synthese");
     synthese.classList.remove("done");
+    var dico = document.getElementById("dictionnaire");
+    dico.classList.add("done");
 }
+function dictionnaire() {
+    var dico = document.getElementById("dictionnaire");
+    dico.classList.remove("done");
+    var editor = document.getElementById("editor");
+    editor.classList.add("done");
+    var synthese = document.getElementById("synthese");
+    synthese.classList.add("done");
+}
+
 
 
 const exempleTxt = `

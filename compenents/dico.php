@@ -1,4 +1,4 @@
-<div class="dictionnaire">
+<div class="dictionnaire done" id="dictionnaire">
     <h1>Dictionnaire</h1>
     <div class="navSearch">
         <i class="fas fa-search"></i>

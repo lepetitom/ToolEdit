@@ -33,20 +33,20 @@
             </li> 
 
             <li> 
-                <a href="#">
+                <a href="#" onclick="dictionnaire()">
                 <div class="picto">
                 <i class="fas fa-book"></i> 
                 </div>   
                 Dictionnaire</a> 
             </li> 
 
-            <li> 
+            <!-- <li> 
                 <a href="#">
                 <div class="picto">
                 <i class="fas fa-spell-check"></i> 
                 </div>   
                 SEO</a> 
-            </li>
+            </li> -->
 
             <li> 
                 <a href="#"  onclick="synthese()">
